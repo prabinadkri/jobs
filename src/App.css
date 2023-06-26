@@ -1,5 +1,27 @@
 .App {
-  text-align: center;
+  margin:0;
+  padding:0;
+  background-color: aliceblue;
+}
+.heading{
+background-color:rgba(42, 143, 141, 0.852);
+height: 150px;
+width: 100%;
+overflow:hidden;
+
+top: 0;
+
+}
+.pattern1
+{
+  background-color:#4abbb9cd  ;
+  border-radius: 200px;
+  height: 500px;
+  width:250px;
+  transform: rotate(45deg);
+  position:relative;
+  top:-320px;
+  left:-50px;
 }
 
 .App-logo {

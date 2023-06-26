@@ -1,0 +1,254 @@
+.container{
+   position: relative;
+   width: 100%;
+   margin-top: 50px;
+    
+}
+
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit:contain;
+    border-radius: 50%;
+}
+ul{
+    position: relative;
+    width: 66%;
+    margin:auto ;
+    top:-50px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+small{
+    font-weight: 500;
+    color: #aaaaaa;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.new{
+  position: relative;
+  margin-left: 15px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 12px;
+  padding: 0px 5px;
+  background-color: #3fb4a3;
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.featured{
+  position: relative;
+  margin-left: 15px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 12px;
+  padding: 0px 5px;
+  background-color: rgba(40, 33, 33, 0.826);
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+ul li{
+    
+    display: flex;
+    background: rgba(255,255,255,.8);
+    padding: 20px 40px;
+    color: #3fb4a3;
+    margin: 20px 0;
+    transition: .5s;
+    -webkit-box-shadow: 0px 5px 5px #dddddd;
+    -moz-box-shadow: 0px 5px 5px #dddddd;
+    box-shadow: 0px 5px 5px #dddddd;
+}
+ul li span:nth-child(1)
+{
+    
+    object-fit: cover;
+    width: 100px;
+}
+ul li span:nth-child(2)
+{
+    font-size: smaller;
+    font-weight: bold;
+    width: fit-content;
+}
+ul li span:nth-child(3)
+{
+    font-size: 18px;
+    width: 300px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+    /* left: -200px; */
+    color: rgba(40, 33, 33, 0.826);
+    font-weight:700;
+   
+}
+ul li:hover
+{
+    transform:scale(1.06) ;
+    
+    -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+-moz-box-shadow: 3px 3px 10px 3px #dddddd;
+box-shadow: 3px 3px 10px 3px #dddddd;
+}
+ul li span:nth-child(3):hover
+{
+    color:#3fb4a3;
+    cursor: pointer;
+    
+}
+.features{
+    position: absolute;
+    right:25px;
+    margin-right: 5px;
+    align-self:center;
+  height:fit-content;
+  width:300px;
+ 
+}
+.lifeatures{
+    position: relative;
+   
+    margin-right: 15px;
+    float: right;
+  height:fit-content;
+  width: fit-content;
+  font-size: 12px;
+  padding:5px 8px;
+  border-radius: 2px;
+    background-color: aliceblue;
+    font-weight: 500;
+    color:#3fb4a3;
+}
+.lifeatures:hover{
+    background-color: #3fb4a3;
+    color: aliceblue;
+    cursor: pointer;
+}
+.loader {
+    margin: auto;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #4abbb9cd;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+  .react-tagsinput {
+    
+    position: relative;
+    margin: auto;
+    width: 65%;
+    height:50px;
+    top: -70px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:10px 10px;
+    
+    -webkit-box-shadow: 0px 5px 10px #dddddd;
+    -moz-box-shadow: 0px 5px 10px #dddddd;
+    box-shadow: 0px 5px 10px #dddddd;
+  }
+  
+
+  .react-tagsinput--focused {
+    border-color: #a5d24a;
+  }
+  
+  .react-tagsinput-tag {
+    background-color: aliceblue;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #3fb4a3;
+    display: inline-block;
+    height:15px;
+   position: relative;
+    width:fit-content;
+    font-size: 12px;
+    align-content: center;
+    bottom: -2px;
+    margin-right: 10px;
+    padding:0px 8px;
+    padding-bottom: 10px;
+    
+  }
+  
+  .react-tagsinput-remove {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .react-tagsinput-tag a::before {
+    border-radius: 3px;
+    height: 15px;
+    position: relative;
+    align-content: center;
+    margin-right: -8px;
+    
+  width: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    align-self: center;
+    background-color: #3fb4a3;
+    color:white;
+    content: "\2716";
+  }
+  .react-tagsinput-tag a:hover:before {
+    background-color: rgba(40, 33, 33, 0.826);
+  }
+  
+  .react-tagsinput-input {
+    background: transparent;
+    border: 0;
+    color: #777;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    margin-top: 1px;
+    outline: none;
+    padding: 5px;
+    width: 80px;
+  }
+  
+  .clear
+  {
+    position:absolute;
+    top:-60px;
+    right: 17%;
+    margin-right: 30px;
+    margin-top: 5px;
+    font-size: 12px;
+    color:#3fb4a3;
+    font-weight: 500;
+    content: 'Clear';
+  }
+  .clear:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
