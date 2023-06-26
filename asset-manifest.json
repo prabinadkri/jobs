@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/prabinadkri/Jobs/static/css/main.e099ae09.css",
-    "main.js": "/prabinadkri/Jobs/static/js/main.23191fbe.js",
-    "static/js/787.dde20c4c.chunk.js": "/prabinadkri/Jobs/static/js/787.dde20c4c.chunk.js",
-    "static/media/logo.svg": "/prabinadkri/Jobs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/prabinadkri/Jobs/index.html",
-    "main.e099ae09.css.map": "/prabinadkri/Jobs/static/css/main.e099ae09.css.map",
-    "main.23191fbe.js.map": "/prabinadkri/Jobs/static/js/main.23191fbe.js.map",
-    "787.dde20c4c.chunk.js.map": "/prabinadkri/Jobs/static/js/787.dde20c4c.chunk.js.map"
+    "main.css": "/jobs/static/css/main.e099ae09.css",
+    "main.js": "/jobs/static/js/main.c5aef605.js",
+    "static/js/787.dde20c4c.chunk.js": "/jobs/static/js/787.dde20c4c.chunk.js",
+    "static/media/logo.svg": "/jobs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jobs/index.html",
+    "main.e099ae09.css.map": "/jobs/static/css/main.e099ae09.css.map",
+    "main.c5aef605.js.map": "/jobs/static/js/main.c5aef605.js.map",
+    "787.dde20c4c.chunk.js.map": "/jobs/static/js/787.dde20c4c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e099ae09.css",
-    "static/js/main.23191fbe.js"
+    "static/js/main.c5aef605.js"
   ]
 }
